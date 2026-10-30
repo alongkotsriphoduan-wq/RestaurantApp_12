@@ -89,7 +89,6 @@ namespace RestaurantApp_12
                         }
                         break;
 
-                    //สรุปคะแนนร้าน
                     case "4":
                         double total = 0;
                         double highest = double.MinValue;
@@ -106,6 +105,7 @@ namespace RestaurantApp_12
                         Console.WriteLine("คะแนนเฉลี่ย: " + average.ToString("F2"));
                         Console.WriteLine("คะแนนสูงสุด: " + highest);
                         break;
+
 
                     case "0":
                         Console.WriteLine("ปิดโปรแกรม");
